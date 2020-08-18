@@ -1,0 +1,11 @@
+{
+  "name": "udacity-capstone-got",
+  "version": "1.0.0",
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
+  "author": "Boris Tulukin",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.730.0",
+    "uuid": "^2.0.3"
+  }
+}

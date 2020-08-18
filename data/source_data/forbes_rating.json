@@ -1,0 +1,54 @@
+{   "forbes_ratings": 
+  [
+    {
+        "rating" : 10,
+        "episode_id" : "S2E9",
+        "rating_description" : "This is a battle sequence that may now look quaint compared to some of the big-budget spectacles of later seasons, but at the time, it was glorious. Tyrion shined brightly, even if he didn’t get any credit, during Stannis’ failed siege of King’s Landing, and this is when The Hound went from villain to coward to eventual hero."
+    },
+    {
+        "rating" : 9,
+        "episode_id" : "S4E6" ,
+        "rating_description": "This was the trial of Tyrion Lannister for allegedly killing his nephew, Joffrey, which includes the famous “I’m guilty of being a dwarf” monologue. I’m a little surprised this one made the list (it’s also the one where Yara randomly tries to rescue Theon, but he won’t go), but here we are."
+    },
+    {
+        "rating" : 8,
+        "episode_id": "S4E7",
+        "rating_description": "And here we have the second part of Tyrion’s trial, the trial by combat between the Mountain and Oberyn Martell, which results in one of the show’s most nauseating deaths and seems to doom Tyrion for good. One of the best 1v1 fights in series history, and a scream out loud moment when Oberyn dies, horribly."
+    },
+    {
+        "rating" : 7,
+        "episode_id" : "S4E2",
+        "rating_description": "I mean, were we not gonna see Joffrey’s death episode on this list? I’m pretty sure everyone was so overjoyed they immediately rated this episode as high as they possible could. The Purple Wedding remains an all-time great to this day."
+    },
+    {
+        "rating" : 6, 
+        "episode_id": "S6E5",
+        "rating_description": "Here’s the first episode where we’re fully moving past the books, and it’s the famous “Hodor origin story” where between Hodor’s courage, Bran’s warging and the White Walker threat, we learn the tragic, bizarre reason why Hodor has been saying “Hodor” all these years as he holds the door and is eaten alive so Bran can escape."
+    },
+    {
+        "rating": 5, 
+        "episode_id": "S7E4",
+        "rating_description": "The only season 7 episode on this list, even if I didn’t much care for this season overall, this battle sequence between the Lannister’s, Dothraki and eventually Daenerys’ dragon, is probably the best in series history, at least based on pure spectacle."
+    },
+    {
+        "rating": 4,
+        "episode_id": "S3E9",
+        "rating_description": "You didn’t think we’d make it through this list without seeing the Red Wedding, did you? Possibly the single most memorable episode in the history of the series, the slaughter of Robb, his wife and Catelyn is forever burned into the brains of any Game of Thrones fan."
+    },
+    {
+        "rating": 3,
+        "episode_id": "S5E7",
+        "rating_description": "The only episode to make the list from season 5, it was an all-time great as Jon, the Night’s Watch and the Wildlings faced down the White Walker threat in open combat for the first time. And it ended with the above harrowing moment, the Night King's 'come at me bro' taunt."
+    },
+    {
+        "rating": 2,
+        "episode_id": "S6E10",
+        "rating_description": "I consider Cersei blowing up the Sept to avoid her trial and destroy her enemies to be one of the best moments in series history, and possibly the entire peak of the show so far, so I am glad to see this episode so high on the list. I still rewatch that entire sequence just for fun to this day."
+    },
+    {
+        "rating": 1,
+        "episode_id": "S6E9",
+        "rating_description": "I am a little surprised that this is taking the #1 spot, but it is one of the most epic battles of the series, beautifully, horribly choreographed, and of course it ends with the death of arguably the show’s most horrible villain, Ramsay Bolton, as Sansa feeds him to his own dogs."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+service: udacity-capstone-got
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  environment:
+    DYNAMODB_TABLE_CHARACTERS: got_characters2
+    DYNAMODB_TABLE_EPISODES: got_episodes2
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:us-east-1:561448979833:table/got_episodes2"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:us-east-1:561448979833:table/got_characters2"
+
+functions:
+  episodes:
+    handler: got/episodes.episodes
+    events:
+      - http:
+          path: episode
+          method: get
+          cors: true
+
+  episode:
+    handler: got/episode.episode
+    events:
+      - http:
+          path: episode/{id}
+          method: get
+          cors: true
+  characters:
+    handler: got/characters.characters
+    events:
+      - http:
+          path: character
+          method: get
+          cors: true
+
+  character:
+    handler: got/character.character
+    events:
+      - http:
+          path: character/{id}
+          method: get
+          cors: true
+          
